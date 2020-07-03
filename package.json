@@ -1,5 +1,5 @@
 {
-  "name": "E_WorkPlaceAndroid",
+  "name": "e_workplaceandroid",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -23,9 +23,10 @@
     "@react-navigation/native-stack": "^5.0.0",
     "@react-navigation/stack": "^5.0.5",
     "axios": "^0.19.2",
-    "moment": "^2.24.0",
+    "moment": "^2.27.0",
     "react": "^16.9.0",
-    "react-native": "0.61.5",
+    "react-month-year-picker": "^1.0.1",
+    "react-native": "^0.62.2",
     "react-native-elements": "^1.2.7",
     "react-native-geocoding": "^0.4.0",
     "react-native-geolocation-service": "^4.0.0",
@@ -38,6 +39,7 @@
     "react-native-svg": "^11.0.1",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-tab-view": "^2.13.0",
+    "react-native-table-component": "^1.2.1",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.1.0",
     "react-navigation-stack": "^2.1.0",
@@ -57,5 +59,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "![Image of Eworkpalce](/image/ss1.png)>![Image of Eworkpalce](/image/ss2.png)\r ![Image of Eworkpalce](/image/ss3.png)>![Image of Eworkpalce](/image/ss4.png)\r ![Image of Eworkpalce](/image/ss5.png) <br/>\r E workpalce is a mobile application that is made for employee of moonlay technologies. The features contained in this application are: <br/>\r 1. Login and logout <br/>\r 2. Clock in at office <br/>\r 3. Clock in at home <br/>\r 4. Clock in at client office <br/>\r 5. Sick form  <br/>\r 6. Location radius validation (Only works on clock in at office features, max radius from office is 80 meters) <br/>\r 7. Profile page <br/>\r 8. Monthly clock in history <br/>\r 9. Clock in approval page (Only for Head Divisions) <br/>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marthin36/id.co.moonlay-eworkplace-mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marthin36/id.co.moonlay-eworkplace-mobile/issues"
+  },
+  "homepage": "https://github.com/marthin36/id.co.moonlay-eworkplace-mobile#readme"
 }

@@ -17,6 +17,12 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import BottomNavBar from './BottomNavBar'
 import BottomNavBarHD from './BottomNavBarHD'
 import Eworkplace3 from '../../image/eworkplace3.svg'
+import MedicalReimbursement from '../screens/MedicalReimbursement';
+import FormMedical from '../screens/FormMedical';
+import Overtime from '../screens/Overtime';
+import DetailMedical from '../screens/DetailMedical';
+import FormOvertime from '../screens/FormOvertime';
+
 
 const Stack = createStackNavigator();
 function HeaderRight () {
@@ -99,6 +105,12 @@ function MyStack() {
       <Stack.Screen name="OverworkForm" component={OverworkForm} options={{headerTitle:'Overwork Form'}}/> 
       <Stack.Screen name="Meetings" component={Meetings} options={{headerTitle:'Meetings',}}/>
       <Stack.Screen name="TaskDone" component={TaskDone} options={{headerTitle:'Task Done',}}/>  
+      <Stack.Screen name="MedicalReimbursement" component={MedicalReimbursement} options={{headerTitle:'Medical Reimbursement',}}/>  
+      <Stack.Screen name="FormMedical" component={FormMedical} options={{headerTitle:'Form Medical',}}/>  
+      <Stack.Screen name="Overtime" component={Overtime} options={{headerTitle:'Overtime',}}/>
+      <Stack.Screen name="FormOvertime" component={FormOvertime} options={{headerTitle:'Form Overtime',}}/>  
+      <Stack.Screen name="DetailMedical" component={DetailMedical} options={{headerTitle:'Detail Medical',}}/>  
+       
     </Stack.Navigator>
   );
 }

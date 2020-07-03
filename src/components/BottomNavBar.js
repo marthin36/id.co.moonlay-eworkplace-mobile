@@ -6,6 +6,7 @@ import Profile from '../screens/Profile'
 import Leave from '../screens/Leave'
 import Task from '../screens/Task'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import RequestReimbursement from '../screens/RequestReimbursement';
 
 const Tab = createBottomTabNavigator();
 
@@ -39,6 +40,12 @@ export default function BottomNavBar() {
         }}/>
       <Tab.Screen name="Leave" component={Leave} options={{
           tabBarLabel: 'Leave',
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="suitcase" color={color} size={20} light/>
+          ),
+        }}/>
+        <Tab.Screen name="Claim" component={RequestReimbursement} options={{
+          tabBarLabel: 'Claim',
           tabBarIcon: ({ color }) => (
             <FontAwesome5 name="suitcase" color={color} size={20} light/>
           ),

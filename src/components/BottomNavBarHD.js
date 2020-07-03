@@ -45,6 +45,12 @@ export default function BottomNavBar() {
             <FontAwesome5 name="suitcase" color={color} size={20} />
           ),
         }}/>
+            <Tab.Screen name="Claim" component={Leave} options={{
+          tabBarLabel: 'Claim',
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="suitcase" color={color} size={20} />
+          ),
+        }}/>
         <Tab.Screen name="Profile" component={Profile} options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({ color }) => (
